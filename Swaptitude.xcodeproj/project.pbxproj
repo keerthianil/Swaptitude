@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B26012942DA329BA003F1B00 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B26012932DA329BA003F1B00 /* FirebaseAnalytics */; };
+		B26012962DA329BA003F1B00 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B26012952DA329BA003F1B00 /* FirebaseAuth */; };
+		B26012982DA329BA003F1B00 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = B26012972DA329BA003F1B00 /* FirebaseCore */; };
+		B260129A2DA329BA003F1B00 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = B26012992DA329BA003F1B00 /* FirebaseCrashlytics */; };
+		B260129C2DA329BA003F1B00 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B260129B2DA329BA003F1B00 /* FirebaseFirestore */; };
+		B260129E2DA329BA003F1B00 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = B260129D2DA329BA003F1B00 /* FirebaseStorage */; };
+		B299CED72DBBE37E0046C011 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B299CED62DBBE37E0046C011 /* MessageUI.framework */; };
+		B2B49B682DB9F0BA0058D4A4 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = B2B49B672DB9F0BA0058D4A4 /* FirebaseDatabase */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B26012742DA3292A003F1B00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B260125E2DA32929003F1B00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B26012652DA32929003F1B00;
+			remoteInfo = Swaptitude;
+		};
+		B260127E2DA3292A003F1B00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B260125E2DA32929003F1B00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B26012652DA32929003F1B00;
+			remoteInfo = Swaptitude;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B26012662DA32929003F1B00 /* Swaptitude.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swaptitude.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26012732DA3292A003F1B00 /* SwaptitudeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwaptitudeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B260127D2DA3292A003F1B00 /* SwaptitudeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwaptitudeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B299CED62DBBE37E0046C011 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B2B49B7D2DBA05DB0058D4A4 /* Exceptions for "Swaptitude" folder in "Swaptitude" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B26012652DA32929003F1B00 /* Swaptitude */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B26012682DA32929003F1B00 /* Swaptitude */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B2B49B7D2DBA05DB0058D4A4 /* Exceptions for "Swaptitude" folder in "Swaptitude" target */,
+			);
+			path = Swaptitude;
+			sourceTree = "<group>";
+		};
+		B26012762DA3292A003F1B00 /* SwaptitudeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwaptitudeTests;
+			sourceTree = "<group>";
+		};
+		B26012802DA3292A003F1B00 /* SwaptitudeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwaptitudeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B26012632DA32929003F1B00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B299CED72DBBE37E0046C011 /* MessageUI.framework in Frameworks */,
+				B26012942DA329BA003F1B00 /* FirebaseAnalytics in Frameworks */,
+				B260129A2DA329BA003F1B00 /* FirebaseCrashlytics in Frameworks */,
+				B26012982DA329BA003F1B00 /* FirebaseCore in Frameworks */,
+				B260129C2DA329BA003F1B00 /* FirebaseFirestore in Frameworks */,
+				B26012962DA329BA003F1B00 /* FirebaseAuth in Frameworks */,
+				B2B49B682DB9F0BA0058D4A4 /* FirebaseDatabase in Frameworks */,
+				B260129E2DA329BA003F1B00 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26012702DA3292A003F1B00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B260127A2DA3292A003F1B00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B260125D2DA32929003F1B00 = {
+			isa = PBXGroup;
+			children = (
+				B26012682DA32929003F1B00 /* Swaptitude */,
+				B26012762DA3292A003F1B00 /* SwaptitudeTests */,
+				B26012802DA3292A003F1B00 /* SwaptitudeUITests */,
+				B299CED52DBBE37D0046C011 /* Frameworks */,
+				B26012672DA32929003F1B00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B26012672DA32929003F1B00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B26012662DA32929003F1B00 /* Swaptitude.app */,
+				B26012732DA3292A003F1B00 /* SwaptitudeTests.xctest */,
+				B260127D2DA3292A003F1B00 /* SwaptitudeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B299CED52DBBE37D0046C011 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B299CED62DBBE37E0046C011 /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B26012652DA32929003F1B00 /* Swaptitude */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B26012872DA3292A003F1B00 /* Build configuration list for PBXNativeTarget "Swaptitude" */;
+			buildPhases = (
+				B26012622DA32929003F1B00 /* Sources */,
+				B26012632DA32929003F1B00 /* Frameworks */,
+				B26012642DA32929003F1B00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B26012682DA32929003F1B00 /* Swaptitude */,
+			);
+			name = Swaptitude;
+			packageProductDependencies = (
+				B26012932DA329BA003F1B00 /* FirebaseAnalytics */,
+				B26012952DA329BA003F1B00 /* FirebaseAuth */,
+				B26012972DA329BA003F1B00 /* FirebaseCore */,
+				B26012992DA329BA003F1B00 /* FirebaseCrashlytics */,
+				B260129B2DA329BA003F1B00 /* FirebaseFirestore */,
+				B260129D2DA329BA003F1B00 /* FirebaseStorage */,
+				B2B49B672DB9F0BA0058D4A4 /* FirebaseDatabase */,
+			);
+			productName = Swaptitude;
+			productReference = B26012662DA32929003F1B00 /* Swaptitude.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B26012722DA3292A003F1B00 /* SwaptitudeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B260128A2DA3292A003F1B00 /* Build configuration list for PBXNativeTarget "SwaptitudeTests" */;
+			buildPhases = (
+				B260126F2DA3292A003F1B00 /* Sources */,
+				B26012702DA3292A003F1B00 /* Frameworks */,
+				B26012712DA3292A003F1B00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B26012752DA3292A003F1B00 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B26012762DA3292A003F1B00 /* SwaptitudeTests */,
+			);
+			name = SwaptitudeTests;
+			packageProductDependencies = (
+			);
+			productName = SwaptitudeTests;
+			productReference = B26012732DA3292A003F1B00 /* SwaptitudeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B260127C2DA3292A003F1B00 /* SwaptitudeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B260128D2DA3292A003F1B00 /* Build configuration list for PBXNativeTarget "SwaptitudeUITests" */;
+			buildPhases = (
+				B26012792DA3292A003F1B00 /* Sources */,
+				B260127A2DA3292A003F1B00 /* Frameworks */,
+				B260127B2DA3292A003F1B00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B260127F2DA3292A003F1B00 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B26012802DA3292A003F1B00 /* SwaptitudeUITests */,
+			);
+			name = SwaptitudeUITests;
+			packageProductDependencies = (
+			);
+			productName = SwaptitudeUITests;
+			productReference = B260127D2DA3292A003F1B00 /* SwaptitudeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B260125E2DA32929003F1B00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					B26012652DA32929003F1B00 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					B26012722DA3292A003F1B00 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = B26012652DA32929003F1B00;
+					};
+					B260127C2DA3292A003F1B00 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = B26012652DA32929003F1B00;
+					};
+				};
+			};
+			buildConfigurationList = B26012612DA32929003F1B00 /* Build configuration list for PBXProject "Swaptitude" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B260125D2DA32929003F1B00;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B26012922DA329BA003F1B00 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B26012672DA32929003F1B00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B26012652DA32929003F1B00 /* Swaptitude */,
+				B26012722DA3292A003F1B00 /* SwaptitudeTests */,
+				B260127C2DA3292A003F1B00 /* SwaptitudeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B26012642DA32929003F1B00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26012712DA3292A003F1B00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B260127B2DA3292A003F1B00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B26012622DA32929003F1B00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B260126F2DA3292A003F1B00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26012792DA3292A003F1B00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B26012752DA3292A003F1B00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B26012652DA32929003F1B00 /* Swaptitude */;
+			targetProxy = B26012742DA3292A003F1B00 /* PBXContainerItemProxy */;
+		};
+		B260127F2DA3292A003F1B00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B26012652DA32929003F1B00 /* Swaptitude */;
+			targetProxy = B260127E2DA3292A003F1B00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B26012852DA3292A003F1B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B26012862DA3292A003F1B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B26012882DA3292A003F1B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Swaptitude/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Swaptitude needs calendar access to add your scheduled meetings";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neuassignment.Swaptitude;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B26012892DA3292A003F1B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Swaptitude/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Swaptitude needs calendar access to add your scheduled meetings";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neuassignment.Swaptitude;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B260128B2DA3292A003F1B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neuassignment.SwaptitudeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swaptitude.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swaptitude";
+			};
+			name = Debug;
+		};
+		B260128C2DA3292A003F1B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neuassignment.SwaptitudeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swaptitude.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swaptitude";
+			};
+			name = Release;
+		};
+		B260128E2DA3292A003F1B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neuassignment.SwaptitudeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Swaptitude;
+			};
+			name = Debug;
+		};
+		B260128F2DA3292A003F1B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neuassignment.SwaptitudeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Swaptitude;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B26012612DA32929003F1B00 /* Build configuration list for PBXProject "Swaptitude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26012852DA3292A003F1B00 /* Debug */,
+				B26012862DA3292A003F1B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B26012872DA3292A003F1B00 /* Build configuration list for PBXNativeTarget "Swaptitude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26012882DA3292A003F1B00 /* Debug */,
+				B26012892DA3292A003F1B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B260128A2DA3292A003F1B00 /* Build configuration list for PBXNativeTarget "SwaptitudeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B260128B2DA3292A003F1B00 /* Debug */,
+				B260128C2DA3292A003F1B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B260128D2DA3292A003F1B00 /* Build configuration list for PBXNativeTarget "SwaptitudeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B260128E2DA3292A003F1B00 /* Debug */,
+				B260128F2DA3292A003F1B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B26012922DA329BA003F1B00 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B26012932DA329BA003F1B00 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B26012922DA329BA003F1B00 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		B26012952DA329BA003F1B00 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B26012922DA329BA003F1B00 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		B26012972DA329BA003F1B00 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B26012922DA329BA003F1B00 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		B26012992DA329BA003F1B00 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B26012922DA329BA003F1B00 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		B260129B2DA329BA003F1B00 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B26012922DA329BA003F1B00 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		B260129D2DA329BA003F1B00 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B26012922DA329BA003F1B00 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		B2B49B672DB9F0BA0058D4A4 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B26012922DA329BA003F1B00 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B260125E2DA32929003F1B00 /* Project object */;
+}
